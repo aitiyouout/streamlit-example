@@ -7,7 +7,7 @@ import os
 
 val = os.system('ls -al')
 
-print val
+st.echo(val)
 
 """
 # Welcome to Streamlit!
