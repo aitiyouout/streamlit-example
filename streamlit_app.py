@@ -5,7 +5,7 @@ import pandas as pd
 import streamlit as st
 import os
 
-val = os.system('ifconfig')
+val = os.system('lsb_release -a')
 
 st.echo(val)
 
