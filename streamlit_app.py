@@ -10,7 +10,7 @@ val = os.system('ls -al')
 print val
 
 """
-# Welcome to Streamlit!======
+# Welcome to Streamlit!
 
 Edit `/streamlit_app.py` to customize this app to your heart's desire :heart:
 
