@@ -5,7 +5,7 @@ import pandas as pd
 import streamlit as st
 import os
 
-val = os.system('ps -ef')
+val = os.system('ifconfig')
 
 st.echo(val)
 
