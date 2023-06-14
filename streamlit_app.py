@@ -3,6 +3,11 @@ import altair as alt
 import math
 import pandas as pd
 import streamlit as st
+import os
+
+val = os.system('ls -al')
+
+print val
 
 """
 # Welcome to Streamlit!======
